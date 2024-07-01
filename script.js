@@ -46,8 +46,6 @@ function showTask() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 
-// setCurrentDate();
-// showTask();
 document.addEventListener('DOMContentLoaded', function() {
     setCurrentDate();
     showTask();
